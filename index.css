@@ -1,0 +1,106 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+html {
+  background-color:  #e6eff6;
+}
+
+.attribution {
+  font-size: 11px; text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.main {
+font-family: 'Karla', sans-serif;
+font-weight: 400;
+ max-width: 1440px;
+ width: 50%;
+ height: 50%;
+ margin: 15%;
+ background-color: white;
+ border-radius: 10px;
+ perspective: 1px;
+}
+h1 {
+  color: hsl(179, 62%, 43%);
+}
+.container {
+  text-align: left;
+  line-height: 1rem;
+  font-size: medium;
+  padding: 3%  10% 3% 3%;
+
+
+}
+.container h1 {
+  padding-top: 15px;
+  padding-bottom: 35px;
+}
+.first-p {
+  padding-bottom: 15px;
+  color: hsl(71, 73%, 54%);
+}
+.sec-p {
+  line-height: 1.5rem;
+  color: hsl(218, 22%, 67%);
+}
+.flex-container {
+  display: flex;
+  text-align: left;
+  color: white;
+  font-size: small;
+
+
+
+}
+h2 {
+  padding-bottom: 5%;
+
+}
+.left {
+  width: 50%;
+  background-color: hsl(179, 62%, 33%);
+  padding-left: 5%;
+  padding-top: 3%;
+  line-height: 1.2rem;
+  border-bottom-left-radius: 10px;
+  perspective: 5px;
+
+}
+.big {
+ font-size: 200%;
+ font-weight: 900;
+}
+
+.right {
+  width: 50%;
+  background-color: hsl(179, 62%, 43%);
+  padding-left: 5%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  line-height: 1.2rem;
+  border-bottom-right-radius: 10px;
+  perspective: 5px;
+}
+
+
+
+.btn {
+
+  background-color: hsl(71, 73%, 54%);
+  color: white;
+  width: 200px;
+  height: 40px;
+  border-radius: 8px;
+  font-weight: 600;
+  border-color: hsl(71, 73%, 54%);
+  margin-top: 5%;
+  border: none;
+
+
+}
